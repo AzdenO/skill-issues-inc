@@ -21,70 +21,66 @@
 
 <body>
     <!--Master Navigation Bar--->
-    <nav class="navbar glass-navbar glassmorphism sticky-top gap-6 position-absolute align-items-start top-0 w-100">
-        <!--Navbar left--->
-        <div class="container-fluid gap-2 d-flex justify-content-start">
-            <img src="assets/clan_logo.png" alt="logo" class="navbar-logo"/>
-            <a href="#top" class="navbar-brand d-flex brand-text flex-column gap-0">
+    <div class="container-fluid master-container d-flex flex-column w-100 gap-3 px-0">
+        <nav class="navbar glass-navbar glassmorphism sticky-top gap-6 align-items-start w-100">
+            <!--Navbar left--->
+            <div class="container-fluid gap-2 d-flex justify-content-start">
+                <img src="assets/clan_logo.png" alt="logo" class="navbar-logo"/>
+                <a href="#top" class="navbar-brand d-flex brand-text flex-column gap-0">
 
                 <span class="fw-normal text-dark fs-5">
                     SKILL ISSUES INCORPORATED
                 </span>
-                <span class="fw-light text-dark fs-6">
+                    <span class="fw-light text-dark fs-6">
                     UK | US | EU Destiny 2 Clan
                 </span>
-            </a>
-            <!--Navbar right--->
-            <div class="d-flex align-items-center ms-auto gap-4">
-                <button class="joinbtn fs-4 gap-6 d-flex align-items-center">
-                    <img src="assets/discord_logo.png" alt="Icon" class="join-icon"/>
-                    Join Server
-                </button>
-                <button
-                        class="navbar-toggler-icon align-self center"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#mainNav"
-                        aria-controls="mainNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                ></button>
+                </a>
+                <!--Navbar right--->
+                <div class="d-flex align-items-center ms-auto gap-4">
+                    <button class="joinbtn fs-4 gap-6 d-flex align-items-center">
+                        <img src="assets/discord_logo.png" alt="Icon" class="join-icon"/>
+                        Join Server
+                    </button>
+                    <button
+                            class="navbar-toggler-icon align-self center"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#mainNav"
+                            aria-controls="mainNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                    ></button>
+                </div>
+                <!--Navbar Collapse--->
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar nav gap-1 d-flex fs-4">
+                        <li class="nav-item">
+                            <a href="#top" class="nav-link nav-text">Join</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-text" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-text" href="#">Raids</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-text" href="#">Special Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-text" href="#">Game Tools</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <!--Navbar Collapse--->
-            <div class="collapse navbar-collapse" id="mainNav">
-                <ul class="navbar nav gap-1 d-flex fs-4">
-                    <li class="nav-item">
-                        <a href="#top" class="nav-link nav-text">Join</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">Raids</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">Special Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">Game Tools</a>
-                    </li>
-                </ul>
-            </div>
+        </nav>
+        <div class="container-fluid gap-6 floating-container glassmorphism w-75">
+            <p class="part-header">The Company Needs YOU!</p>
+            <p class="small-body-text">
+                Welcome to Skill Issues Inc. The number one stop for players across the skill spectrum. From the solo raiders and dungeoners, to the bluest blueberry. Whether you are US, UK or some lovely land in the EU, theres always people about to have a game with. Raids are often, banter is highly encouraged, and what`s more important than a good chuckle
+            </p>
         </div>
-    </nav>
-
-    <!--Hero Container--->
-    <div class="hero-container position-relative">
-        <img src="assets/clan-bg.png" alt="Background" class="img-fluid w-100"/>
-        <div class="container-fluid info-container">
-            <div class="container-fluid floating-container glassmorphism position-absolute top-50">
-                <p class="fs-4 part-header">The Company Needs YOU!</p>
-                <p class="fs 6 small-body-text text-black">
-                    Welcome to Skill Issues Inc. The number one stop for players across the skill spectrum. From the solo raiders and dungeoners, to the bluest blueberry. Whether you are US, UK or some lovely land in the EU, theres always people about to have a game with. Raids are often, banter is highly encouraged, and what`s more important than a good chuckle
-                </p>
-            </div>
-        </div>
-
     </div>
+
+
 
     <!--Scripts-->
     <script src="js/bootstrap.bundle.js"></script>

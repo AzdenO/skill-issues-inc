@@ -53,17 +53,15 @@
 .floating-container {
     background: rgba(255,255,255,0.25);
     border: 0.1rem solid darkorange;
-    transform: translateX(5rem);
-    animation: floatInLeft 1s ease-out forwards;
-    z-index: 20;
-    width: auto;
-    justify-content: left;
+    transform: translateX(-15rem);
+    animation: floatInLeft 2s ease-out forwards;
+    justify-content: center;
 }
 
 @keyframes floatInLeft {
     0%{
         opacity: 0;
-        transform: translateX(-5rem);
+        transform: translateX(-15rem);
     }
     100%{
         opacity: 1;
@@ -85,8 +83,19 @@
 .part-header{
     font-family: "Bangers", system-ui;
     color: darkorange;
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
 }
 
 .small-body-text{
-    width: 30%;
+    color: white;
+    font-size: clamp(0.5rem, 2vw, 2rem);
+}
+
+.master-container{
+    background-image: url("assets/paleheart.jpg");
+    aspect-ratio: 16/9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
