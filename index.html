@@ -10,48 +10,59 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="main.css">
 
+    <!--Style Links--->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@400..900&display=swap');
+    </style>
     <!--Website meta-->
     <title>UK|US|EU Destiny 2 Clan | Skill Issues Incorporated</title>
 </head>
 
 <body>
     <!--Master Navigation Bar--->
-    <nav class="navbar glass-navbar sticky-top gap-1 position-absolute top-0 w-100">
-        <div class="container-fluid gap-2 d-flex">
+    <nav class="navbar glass-navbar sticky-top gap-6 position-absolute align-items-start top-0 w-100">
+        <div class="container-fluid gap-2 d-flex justify-content-start">
             <img src="assets/clan_logo.png" alt="logo" class="navbar-logo"/>
-            <a href="#top" class="navbar-brand d-flex flex-column gap-0">
+            <a href="#top" class="navbar-brand d-flex brand-text flex-column gap-0">
 
-                <span class="fw-normal text-light fs-5">
+                <span class="fw-normal text-dark fs-5">
                     SKILL ISSUES INCORPORATED
                 </span>
-                <span class="fw-light text-light fs-6">
+                <span class="fw-light text-dark fs-6">
                     UK | US | EU Destiny 2 Clan
                 </span>
             </a>
-            <button
-                    class="navbar-toggler-icon"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#mainNav"
-                    aria-controls="mainNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-            ></button>
+            <div class="d-flex align-items-center ms-auto gap-4">
+                <button class="joinbtn fs-4 gap-6 d-flex align-items-center">
+                    <img src="assets/discord_logo.png" alt="Icon" class="join-icon"/>
+                    Join Server
+                </button>
+                <button
+                        class="navbar-toggler-icon align-self center"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mainNav"
+                        aria-controls="mainNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                ></button>
+            </div>
+
             <div class="collapse navbar-collapse" id="mainNav">
-                <ul class="navbar nav ms-auto gap-3">
+                <ul class="navbar nav gap-1 d-flex fs-4">
                     <li class="nav-item">
-                        <a href="#top" class="nav-link">Join</a>
+                        <a href="#top" class="nav-link nav-text">Join</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link nav-text" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Raids</a>
+                        <a class="nav-link nav-text" href="#">Raids</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Special Events</a>
+                        <a class="nav-link nav-text" href="#">Special Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Game Tools</a>
+                        <a class="nav-link nav-text" href="#">Game Tools</a>
                     </li>
                 </ul>
             </div>
@@ -61,6 +72,9 @@
     <!--Hero Container--->
     <div class="hero-container position-relative">
         <img src="assets/clan-bg.png" alt="Background" class="img-fluid w-100"/>
+        <div class="container-fluid floating-container position-absolute top-50">
+            <p class="p-5">Floating Div!</p>
+        </div>
     </div>
 
     <!--Scripts-->

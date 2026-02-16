@@ -1,9 +1,11 @@
 .glass-navbar {
-    background: rgba(255,255,255,0.25);
+    background: rgba(255,255,255,0.05);
     backdrop-filter: blur(0.8rem);
     -webkit-backdrop-filter: blur(0.8rem);
     z-index: 10;
     border-bottom: 0.2rem solid darkorange;
+    padding-top:0.05rem;
+    padding-bottom: 0.05rem;
 }
 
 .navbar-toggler-icon {
@@ -22,6 +24,13 @@
     object-fit: contain;
 }
 
+.join-icon{
+    height: 3rem;
+    width:auto;
+    object-fit: contain;
+
+}
+
 .hero {
 
     background: url("assets/clan-bg.png");
@@ -30,4 +39,43 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+}
+
+.bangers-regular{
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.brand-text {
+    font-family: "Bangers", system-ui;
+}
+
+.floating-container {
+    opacity: 0;
+    transform: translateX(5rem);
+    animation: floatInLeft 1s ease-out forwards;
+    z-index: 20;
+}
+
+@keyframes floatInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-5rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.joinbtn{
+    font-family: "Bangers", system-ui;
+    border: none;
+    background-color: transparent;
+}
+
+.nav-text{
+    font-family: "Bangers", system-ui;
+    color: darkorange;
 }
