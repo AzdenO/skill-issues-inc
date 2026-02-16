@@ -1,7 +1,4 @@
 .glass-navbar {
-    background: rgba(255,255,255,0.05);
-    backdrop-filter: blur(0.8rem);
-    -webkit-backdrop-filter: blur(0.8rem);
     z-index: 10;
     border-bottom: 0.2rem solid darkorange;
     padding-top:0.05rem;
@@ -30,7 +27,9 @@
     object-fit: contain;
 
 }
+.hero-container{
 
+}
 .hero {
 
     background: url("assets/clan-bg.png");
@@ -38,7 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 2rem 2rem;
 }
 
 .bangers-regular{
@@ -52,10 +51,13 @@
 }
 
 .floating-container {
-    opacity: 0;
+    background: rgba(255,255,255,0.25);
+    border: 0.1rem solid darkorange;
     transform: translateX(5rem);
     animation: floatInLeft 1s ease-out forwards;
     z-index: 20;
+    width: auto;
+    justify-content: left;
 }
 
 @keyframes floatInLeft {
@@ -78,4 +80,13 @@
 .nav-text{
     font-family: "Bangers", system-ui;
     color: darkorange;
+}
+
+.part-header{
+    font-family: "Bangers", system-ui;
+    color: darkorange;
+}
+
+.small-body-text{
+    width: 30%;
 }
