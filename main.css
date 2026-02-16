@@ -1,0 +1,33 @@
+.glass-navbar {
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(0.8rem);
+    -webkit-backdrop-filter: blur(0.8rem);
+    z-index: 10;
+    border-bottom: 0.2rem solid darkorange;
+}
+
+.navbar-toggler-icon {
+    border:none;
+    background: transparent;
+    background-image: url("assets/menu_icon.svg");
+    height: 1.5rem;
+    width: 1.5rem;
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.navbar-logo{
+    height: 2.5rem;
+    width: auto;
+    object-fit: contain;
+}
+
+.hero {
+
+    background: url("assets/clan-bg.png");
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
