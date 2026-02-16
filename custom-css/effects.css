@@ -3,3 +3,16 @@
     backdrop-filter: blur(0.8rem);
     -webkit-backdrop-filter: blur(0.8rem);
 }
+
+.big-gap{
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+.circle-image{
+    border: 0.2rem solid orange;
+    border-radius: 50%;
+    object-fit: contain;
+    height: 5rem;
+    width:5rem;
+}
