@@ -5,7 +5,7 @@
 }
 
 .big-gap{
-    margin-top: 6rem;
+    margin-top: 9rem;
     margin-bottom: 1rem;
 }
 
@@ -15,4 +15,36 @@
     object-fit: contain;
     height: 5rem;
     width:5rem;
+}
+
+.float-from-left{
+    transform: translateX(-20rem);
+    animation: floatInLeft 1.5s ease-out forwards;
+}
+
+.float-from-right{
+    transform: translateX(20rem);
+    animation: floatInRight 1.5s ease-out forwards;
+}
+
+@keyframes floatInLeft {
+    0%{
+        opacity: 1;
+        transform: translateX(-20rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes floatInRight {
+    0%{
+        opacity: 1;
+        transform: translateX(20rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
 }

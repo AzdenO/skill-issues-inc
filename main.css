@@ -42,8 +42,9 @@
     background: rgba(255,255,255,0.25);
 
     transform: translateX(-20rem);
-    animation: floatInLeft 3s ease-out forwards;
+    animation: floatInLeft 1.5s ease-out forwards;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 @keyframes floatInLeft {
@@ -61,11 +62,12 @@
     font-family: "Bangers", system-ui;
     border: none;
     background-color: transparent;
+    color: white;
 }
 
 .nav-text{
     font-family: "Bangers", system-ui;
-    color: darkorange;
+    color: black;
 }
 
 .part-header{
@@ -85,16 +87,10 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 .team-container{
-    background-image: url("assets/verity.jpg");
-    z-index: 5;
-    aspect-ratio: 16/9;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: darkorange;
     position: relative;
 }
 
@@ -116,4 +112,23 @@
     color:black;
     font-size: clamp(0.3rem, 1.5vw, 1.5rem);
     max-width: 30ch;
+}
+
+.d2-hero{
+    min-height: 4.5rem;
+    max-height: 10rem;
+    width: auto;
+    object-fit: contain;
+}
+
+.clan-offers{
+    background-image: url("assets/traverller_portal.jpg");
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
