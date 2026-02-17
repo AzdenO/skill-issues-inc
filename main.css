@@ -68,12 +68,13 @@
 .nav-text{
     font-family: "Bangers", system-ui;
     color: black;
+    font-size: clamp(1rem, 2.5vw, 2.5rem);
 }
 
 .part-header{
     font-family: "Bangers", system-ui;
     color: darkorange;
-    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    font-size: clamp(1rem, 2.5vw, 2.5rem);
 }
 
 .small-body-text{
@@ -94,7 +95,7 @@
     position: relative;
 }
 
-.team-member{
+.card{
     border-radius: 1rem;
     justify-content: center;
     text-align: center;
@@ -116,7 +117,7 @@
 
 .d2-hero{
     min-height: 4.5rem;
-    max-height: 10rem;
+    max-height: 11rem;
     width: auto;
     object-fit: contain;
 }
@@ -131,4 +132,14 @@
     background-position: center;
     background-repeat: no-repeat;
 
+}
+
+.event-icon{
+    object-fit: contain;
+    height: 6rem;
+    width: 6rem;
+}
+
+.d2-icon{
+    height: 1.5rem;
 }
