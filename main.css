@@ -40,7 +40,7 @@
 
 .floating-container {
     background: rgba(255,255,255,0.25);
-
+    max-width: 100ch;
     transform: translateX(-20rem);
     animation: floatInLeft 1.5s ease-out forwards;
     justify-content: center;
@@ -74,12 +74,12 @@
 .part-header{
     font-family: "Bangers", system-ui;
     color: darkorange;
-    font-size: clamp(1rem, 2.5vw, 2.5rem);
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
 }
 
 .small-body-text{
     color: white;
-    font-size: clamp(0.5rem, 2vw, 2rem);
+    font-size: clamp(1rem, 1.3vw, 1.3rem);
 }
 
 .master-container{
@@ -106,12 +106,10 @@
 .member-title{
     font-family: "Bangers", system-ui;
     color: black;
-    font-size: clamp(0.5rem, 2vw, 2rem);
 }
 
 .member-text{
     color:black;
-    font-size: clamp(0.3rem, 1.5vw, 1.5rem);
     max-width: 30ch;
 }
 
@@ -142,4 +140,8 @@
 
 .d2-icon{
     height: 1.5rem;
+}
+
+.about-container{
+    background: #1a1d20;
 }
