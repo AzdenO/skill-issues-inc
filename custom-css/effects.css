@@ -48,3 +48,8 @@
         transform: translateX(0);
     }
 }
+
+.spinner-border{
+    animation-duration: 20s;
+    border: none;
+}
