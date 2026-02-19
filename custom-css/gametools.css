@@ -1,0 +1,14 @@
+.tools-master{
+    background-image: url("../assets/images/paleheart3.jpg");
+}
+
+#maindiv{
+    background: #1a1d20;
+    border-top: 0.2rem solid darkorange;
+    border-bottom: 0.2rem solid darkorange;
+}
+
+
+.toolbtn:hover{
+    color: white;
+}

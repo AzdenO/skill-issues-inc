@@ -53,3 +53,40 @@
     animation-duration: 20s;
     border: none;
 }
+
+.hidden{
+    display: none;
+}
+
+.fancy-link {
+    position: relative;
+    text-decoration: none;
+    color: darkorange;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+.fancy-link::before,
+.fancy-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s ease;
+}
+
+.fancy-link::before {
+    left: 0;
+}
+
+.fancy-link::after {
+    right: 0;
+}
+
+.fancy-link:hover::before,
+.fancy-link:hover::after {
+    width: 50%;
+    color: white;
+}

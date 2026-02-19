@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="./libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./custom-css/effects.css">
+    <link rel="stylesheet" href="./custom-css/gametools.css">
+
+    <!--Style Links--->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@400..900&display=swap');
+    </style>
+
+    <title>Skill Issues Inc. | Game Tools</title>
+</head>
+<body>
+    <div class="container-fluid master-container tools-master d-flex flex-column w-100 gap-3 px-0" id="master">
+        <div class="container-fluid gap-6 floating-container text-center big-gap glassmorphism w-75">
+            <p class="part-header">Game Tools</p>
+            <p class="small-body-text">
+                As with alot of games, there exists a copendium of third-party tools that aid guardians in their travels and fights. From item management and sharing builds, to in-depth info on weapon rolls, perks and triumph tracking. Below you can find a list to most of these sites as well as descriptions as to what they offer.
+            </p>
+            <p class="small-body-text">
+                We are also currently developing a number of in-house tools which will be released soon. These are included at the bottom of this page as well as expected release dates.
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid d-flex flex-column w-100 gap-3 px-0 justify-content-center text-center" id="maindiv">
+        <p class="part-header fancy-link">Third-Party Tools</p>
+        <div class="d-flex flex-column w-100 gap-3 align-items-center" id="thirdpartytools">
+            <template id="tooltemplate">
+                <div class="d-flex container-fluid gap-3 align-items-center w-80 py-3 tool-div">
+                    <img src="" alt="icon" class="event-icon spinner-border" id="toolicon" />
+                    <div class="tool-div">
+                        <a href="" class=" nav-text part-header toolbtn fancy-link" id="toolname" target="_blank" rel="noopener noreferrer"></a>
+                        <p class="small-body-text" id="tooldesc">
+
+                        </p>
+                    </div>
+                </div>
+            </template>
+
+        </div>
+    </div>
+
+
+    <!--Scripts--->
+    <script src="./custom_js/load.js"></script>
+    <script src="./custom_js/gameToolsLoad.js"></script>
+    <script src="./libraries/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

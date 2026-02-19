@@ -1,0 +1,46 @@
+{
+  "tools": [
+    {
+      "name": "BrayTech",
+      "url": "https://bray.tech/",
+      "icon": "/assets/images/bray_icon.webp",
+      "description": "An all-encompassing web application giving users the ability to manage their vaults, characters, triumphs, view maps of destinations including collectible locations as well as display current weekly and daily activity rotations. It also offers guardians the ability to view past activity reports and manage their destiny profile settings."
+    },
+    {
+      "name": "Destiny Item Manager",
+      "url": "https://destinyitemmanager.com/",
+      "icon": "/assets/images/dim_icon.png",
+      "description": "It`s in the name. An item as well as loadout manager that lets you create builds from the comfort of a web browser, as well as view popular loadouts and share your own build with others"
+    },
+    {
+      "name": "Light.gg",
+      "url": "https://www.light.gg/",
+      "icon": "/assets/images/light_icon.webp",
+      "description": "An item database for all weapons and armor in the game, giving intimate details on perks, the possible perks a weapon can roll with and so much more. It also provides a database of loadouts from across the community as well as noted god rolls on weapons"
+    },
+    {
+      "name": "Raid and Dungeon Report",
+      "url": "https://raid.report/",
+      "icon": "/assets/images/raid.svg",
+      "description": "Site that allows you to search any guardian and view the number of clears they have on each raid/dungeon, fastest times as well as a benchmark of each clear against the average"
+    },
+    {
+      "name": "Destiny 2 Checkpoint",
+      "url": "https://d2checkpoint.com/",
+      "icon": "path",
+      "description": "A community curated compendium of checkpoints for raids and dungeons. You join one of the checkpoint bots to grab the check, orbit and re-enter with the checkpoint"
+    },
+    {
+      "name": "Destiny 2 Armor Picker",
+      "url": "https://d2armorpicker.com/login",
+      "icon": "path",
+      "description": "An armor optimisation platform allowing a user to view optimal stat combinations, aiding in the creation of player builds and familiarity with systems therein."
+    },
+    {
+      "name": "Ishtar Collective",
+      "url": "https://www.ishtar-collective.net/",
+      "icon": "/assets/images/ishtar_icon.png",
+      "description": "An ancient library of knowledge. The Ishtar Collective archive, transcribe and watch over the records of humanity, from the golden age, to all that has transpired after the collapse. If you want to update your story and lore knowledge, Ishtar is the place to do it"
+    }
+  ]
+}

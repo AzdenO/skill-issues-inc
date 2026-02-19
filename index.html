@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--CSS Links---->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="custom-css/effects.css">
 
@@ -21,65 +21,8 @@
 
 <body>
     <!--Master Navigation Bar--->
-    <div class="container-fluid master-container d-flex flex-column w-100 gap-3 px-0">
-        <nav class="navbar glass-navbar glassmorphism sticky-top gap-6 align-items-start w-100">
-            <!--Navbar left--->
-            <div class="container-fluid gap-2 d-flex justify-content-start">
-                <img src="assets/clan_logo.png" alt="logo" class="navbar-logo"/>
-                <a href="https://azdeno.github.io/skill-issues-inc/" class="navbar-brand d-flex brand-text flex-column gap-0">
-
-                    <span class="fw-normal text-dark fs-5">
-                        SKILL ISSUES INCORPORATED
-                    </span>
-                    <span class="fw-light text-dark fs-6">
-                        UK | US | EU Destiny 2 Clan
-                    </span>
-                </a>
-                <!--Navbar right--->
-                <div class="d-flex align-items-center ms-auto gap-1">
-                    <a class="joinbtn fs-4 gap-6 d-flex align-items-center d-none d-md-inline btn" href="https://www.bungie.net/en/ClanV2?groupid=5410071" target="_blank" rel="noopener noreferrer">
-                        <img src="assets/d2_icon_only.png" alt="Icon" class="join-icon d2-icon"/>
-                        Join Clan
-                    </a>
-                    <a class="joinbtn fs-4 gap-6 d-flex align-items-center d-none d-md-inline btn" href="https://discord.gg/pVVGPQMptW" target="_blank" rel="noopener noreferrer">
-                        <img src="assets/discord_logo.png" alt="Icon" class="join-icon"/>
-                        Join Server
-                    </a>
-                    <button
-                            class="navbar-toggler-icon align-self center"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#mainNav"
-                            aria-controls="mainNav"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                    ></button>
-                </div>
-                <!--Navbar Collapse--->
-                <div class="collapse navbar-collapse" id="mainNav">
-                    <ul class="navbar nav gap-1 d-flex fs-4">
-                        <li class="nav-item">
-                            <a href="#Join" class="nav-link nav-text">Join</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-text" href="#About">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-text" href="#">Raids</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-text" href="#SpecialEvents">Special Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-text" href="#">Game Tools</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-text" href="#">Newbies</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <img src="assets/d2_logo.png" alt="d2logo" class="d2-hero img-fluid big-gap ms-3 me-3"/>
+    <div class="container-fluid master-container d-flex flex-column w-100 gap-3 px-0" id="master">
+        <img src="assets/images/d2_logo.png" alt="d2logo" class="d2-hero img-fluid big-gap ms-3 me-3"/>
         <div class="container-fluid gap-6 floating-container text-center glassmorphism w-75">
             <p class="part-header">The Company Needs YOU!</p>
             <p class="small-body-text">
@@ -91,13 +34,13 @@
         <p class="part-header text-dark">HEAD OFFICE</p>
         <div class="d-flex container-fluid justify-content-center gap-3 py-3">
             <div class="card glassmorphism float-from-left d-flex flex-column gap-3 px-1 py-1 w-30">
-                <img src="assets/azden_prof.webp" alt="Azden_Pic" class="circle-image"/>
+                <img src="assets/images/azden_prof.webp" alt="Azden_Pic" class="circle-image"/>
                 <p class="part-header text-dark">Azden,Server Prime</p>
                 <p class="member-title">Founder</p>
                 <p class="member-text">Handsome. Intelligent. Skill coming out the wazoo. Egotistical. The one who made this website. Do with that what you will.</p>
             </div>
             <div class="card glassmorphism float-from-right d-flex flex-column gap-3 py-1 px-1 w-30">
-                <img src="assets/tom_prof.jpg" alt="Tom_Pic" class="circle-image"/>
+                <img src="assets/images/tom_prof.jpg" alt="Tom_Pic" class="circle-image"/>
                 <p class="part-header text-dark">TomStrong90</p>
                 <p class="member-title">UK Admin</p>
                 <p class="member-text">Far less handsome but just as fun. Tom is here for the bants and the unlimited power and always willing to jump into the deep end.</p>
@@ -113,7 +56,7 @@
         </p>
         <div class="d-flex flex-column container-fluid justify-content-center gap-3 py-3" id="SpecialEvents">
             <div class="card container-fluid glassmorphism d-flex flex-column py-1 px-1 w-30">
-                <img src="assets/crucible_icon.png" alt="Crucible" class="event-icon spinner-border"/>
+                <img src="assets/images/crucible_icon.png" alt="Crucible" class="event-icon spinner-border"/>
                 <p class="part-header">
                     Clan Rumble
                 </p>
@@ -122,7 +65,7 @@
                 </p>
             </div>
             <div class="card container-fluid glassmorphism d-flex flex-column py-1 px-1 w-30">
-                <img src="assets/raid.svg" alt="Raid" class="event-icon spinner-border"/>
+                <img src="assets/images/raid.svg" alt="Raid" class="event-icon spinner-border"/>
                 <p class="part-header">
                     Raid Challenge Nights
                 </p>
@@ -175,11 +118,11 @@
         </p>
         <div class="d-flex gap-3 align-items-center">
             <a class="joinbtn bottom-join fs-4 d-flex align-items-center btn" href="https://www.bungie.net/en/ClanV2?groupid=5410071" target="_blank" rel="noopener noreferrer">
-                <img src="assets/d2_icon_only.png" alt="Icon" class="join-icon d2-icon"/>
+                <img src="assets/images/d2_icon_only.png" alt="Icon" class="join-icon d2-icon"/>
                 Join Clan
             </a>
             <a class="joinbtn bottom-join fs-4 d-flex align-items-center btn" href="https://discord.gg/pVVGPQMptW" target="_blank" rel="noopener noreferrer">
-                <img src="assets/discord_logo.png" alt="Icon" class="join-icon"/>
+                <img src="assets/images/discord_logo.png" alt="Icon" class="join-icon"/>
                 Join Server
             </a>
         </div>
@@ -188,6 +131,7 @@
 
 
     <!--Scripts-->
-    <script src="js/bootstrap.bundle.js"></script>
+    <script src="custom_js/load.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 </html>
