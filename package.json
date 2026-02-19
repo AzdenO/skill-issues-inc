@@ -1,0 +1,31 @@
+{
+  "name": "skill-issues-inc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzdenO/skill-issues-inc.git"
+  },
+  "keywords": [],
+  "author": "AzdenO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzdenO/skill-issues-inc/issues"
+  },
+  "homepage": "https://github.com/AzdenO/skill-issues-inc#readme",
+  "description": "",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "vite": "^7.3.1"
+  }
+}
