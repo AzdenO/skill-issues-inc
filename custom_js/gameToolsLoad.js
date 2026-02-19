@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
  * @author AzdenO
  */
 function loadThirdParty() {
-    fetch("../assets/json/third-party-tools.json").then(response => {
+    fetch("assets/json/third-party-tools.json").then(response => {
         if(!response.ok){
             return new Error("Unable to load json content");
         }
