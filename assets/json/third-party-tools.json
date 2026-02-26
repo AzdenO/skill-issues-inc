@@ -41,6 +41,18 @@
       "url": "https://www.ishtar-collective.net/",
       "icon": "assets/images/ishtar_icon.png",
       "description": "An ancient library of knowledge. The Ishtar Collective archive, transcribe and watch over the records of humanity, from the golden age, to all that has transpired after the collapse. If you want to update your story and lore knowledge, Ishtar is the place to do it"
+    },
+    {
+      "name": "Destiny Data Compendium",
+      "url": "https://docs.google.com/spreadsheets/d/1WaxvbLx7UoSZaBqdFr1u32F2uWVLo-CJunJB4nlGUE4/edit?gid=1186062409#gid=1186062409",
+      "icon": "path",
+      "description": "Ever wanted to know just how much weapon damage Sanguine Alchemy boosts? Or how much health heal clip gives?. Well with this online spreadsheet you can nerd out over all the specific details, taking character building to a whole other level."
+    },
+    {
+      "name": "Destiny 2 Recipes",
+      "url": "https://destinyrecipes.com/",
+      "icon": "assets/images/d2recipes.svg",
+      "description": "A place with a ton of loot. D2 Recipes provides a loot companion, vault cleaner, power level progressing and pre-seasonal checklists to get you ready for the next big thing"
     }
   ]
 }

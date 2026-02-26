@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="./libraries/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./main.css"/>
+    <link rel="stylesheet" href="./custom-css/raids.css"/>
+    <link rel="stylesheet" href="./custom-css/effects.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@400..900&display=swap');
+    </style>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/clan_logo.png"/>
+
+    <title>Skill Issues Inc. | Raids</title>
+
+</head>
+<body>
+
+    <div class="container-fluid d-flex flex-column w-100 master-container raids-container" id="master">
+        <div class="container-fluid gap-6 floating-container text-center big-gap glassmorphism w-75">
+            <p class="part-header">Raids and Dungeons</p>
+            <p class="small-body-text">
+                Raids. Dungeons. The pinnacle of teamwork and fireteam coordination. Legends have been forged and weakness purged. Raids and Dungeons (RAD) offer an entirely unique experience to guardians who can prove their strength.
+
+            <p class="small-body-text">
+                Here at the company, we run raids nearly every day of the week, and anyone can create a sign-up card in the discord server. Haven`t done a certain raid? Ask for teachers. Want to go after a raid title? There`s plenty of dedicated raiders who will rise to the challenge. We want newcomers to dive head first into these end-game activities; the more people who know a raid, the more often it can be ran.
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid d-flex flex-column w-100" id="raids">
+
+    </div>
+
+    <!--Templates---->
+    <template id="raidtemplate">
+        <div class="d-flex raid text-center flex-column justify-content-center gap-3 align-items-center w-100 py-3 px-3" id="raid-slide">
+            <p class="part-header" id="raidname">
+
+            </p>
+            <p class="small-body-text" id="description">
+
+            </p>
+            <p class="part-header" id="difficulty">
+
+            </p>
+
+            <iframe allow="accelerometer; autoplay; clipboard-write; picture-in-picture; encrypted-media; web-share;" frameborder="0" title="Youtube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen src="" id="guide" class="raidcontent">
+
+            </iframe>
+
+        </div>
+    </template>
+    <!--Scripts---->
+    <script src="./libraries/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./custom_js/load.js"></script>
+    <script type="module" src="./custom_js/raidloading.js"></script>
+
+
+</body>
+</html>

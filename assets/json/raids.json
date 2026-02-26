@@ -1,0 +1,52 @@
+{
+  "raids":[
+    {
+      "name": "Salvations Edge",
+      "description": "Fight the witness at the heart of his monolith, at the epicentre of the Pale Heart. Stop it from enacting its final shape, bringing to a close the saga of Light and Dark",
+      "difficulty": 5,
+      "gallery": "SalvationsEdgeGallery/",
+      "galleryFiles": ["Substratum.webp","Dissipation.jpg","Repository.jpg","Verity.jpg","Zenith.jpg"],
+      "guide": "https://www.youtube.com/embed/HmkYGht03z4?si=wgH-zlXH1BWjVgep"
+    },
+    {
+      "name": "Desert Perpetual",
+      "description": "Stop The Conductors vex from digitizing the singularity at the heart of Kepler and journey into a microcosm of the realm of The Nine",
+      "difficulty": 5,
+      "gallery": "",
+      "galleryFiles": [],
+      "guide": "https://www.youtube.com/embed/2LvotE_OjfI?si=O4QPcPMBkwtSXuwc"
+    },
+    {
+      "name": "Crota`s End",
+      "description": "Journey into the pit, where crota`s soul sleeps and slay the son of oryx, avenging Eris Morns lost fireteam",
+      "difficulty": 2,
+      "gallery": "CrotasEnd/",
+      "galleryFiles": ["abyss.png","bridge.png","deathsinger.png","crota.png"],
+      "guide": "https://www.youtube.com/embed/FQnMytaF1vU?si=7QJF7LyZNjHoho9N"
+    },
+    {
+      "name": "Root of Nighmares",
+      "description": "The Witness has begun his machinations in the Pale Heart of the traveller. But in the wake of the attempt to stop it, the traveller unwittingly rose a powerful disciple from the dead. Raid the Witnesses pyramid ship, fight the shadow legion and put down the disciple, once and for all",
+      "difficulty": 3,
+      "gallery": "RootOfNightmares/",
+      "galleryFiles": ["cataclysm.jpg","scission.jpg","planets.jpg","nezarec.jpg"],
+      "guide": "https://www.youtube.com/embed/f1-ytmAPFgE?si=ImnPCIlXMae3sm8x"
+    },
+    {
+      "name": "Kings Fall",
+      "description": "The God King of the Hive has fled into his throne world; he must be pursued. Fight your way into this throne world, fight his monsters, and slay him once and for all, bringing to an end the tale of The Taken King",
+      "difficulty": 3,
+      "gallery": "KingsFall/",
+      "galleryFiles": ["totems.png","warpriest.png","golgoroth.jpg","daughters.png"],
+      "guide": "https://www.youtube.com/embed/Nk0pSu4yr1E?si=vIHYS6B3E29eg6jk"
+    },
+    {
+      "name": "Vow Of The Disciple",
+      "description": "Bogged down in Savathun`s Throne World; Rhulk, First Disciple of the Witness awaits your arrival. He sees us as entertainment, an annoyance, bugs beneath his heel. Prove him wrong, slay him in his home and deal The Witness a first blow",
+      "difficulty": 4,
+      "gallery": "VowOfTheDisciple/",
+      "galleryFiles": ["symbols.png","first.png","exhibition.jpg"],
+      "guide": "https://www.youtube.com/embed/fJ3k4_yUIrc?si=y9JGFdGrFVtfgjOW"
+    }
+  ]
+}

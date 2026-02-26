@@ -1,0 +1,42 @@
+.raids-container{
+    background-image: url('../assets/images/vog_bg.jpg');
+}
+
+#raids{
+    background: #1a1d20;
+    border-bottom: 0.2rem solid darkorange;
+    border-top: 0.2rem solid darkorange;
+    width: 100%;
+}
+
+
+#guide{
+    width: 75%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.inner-swiper{
+    width:100%;
+    overflow: hidden;
+}
+.outer-swiper{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.swiper-slide{
+    width: 100%;
+}
+
+.gallery-image{
+    max-width: 75%;
+    height: auto;
+}
+
+.swiper-pagination-bullet-active{
+    color: orange;
+}
+.swiper-pagination-bullet{
+    color: white;
+}
