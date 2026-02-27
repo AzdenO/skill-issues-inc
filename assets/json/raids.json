@@ -34,7 +34,7 @@
     },
     {
       "name": "Kings Fall",
-      "description": "The God King of the Hive has fled into his throne world; he must be pursued. Fight your way into this throne world, fight his monsters, and slay him once and for all, bringing to an end the tale of The Taken King",
+      "description": "The God King of the Hive has fled into his throne world; he must be pursued. Fight your way into this throne world, defeat his monsters, and slay the Taken King once and for all",
       "difficulty": 3,
       "gallery": "KingsFall/",
       "galleryFiles": ["totems.png","warpriest.png","golgoroth.jpg","daughters.png"],
@@ -47,6 +47,38 @@
       "gallery": "VowOfTheDisciple/",
       "galleryFiles": ["symbols.png","first.png","exhibition.jpg"],
       "guide": "https://www.youtube.com/embed/fJ3k4_yUIrc?si=y9JGFdGrFVtfgjOW"
+    },
+    {
+      "name": "Deep Stone Crypt",
+      "description": "Lieutenants of House Salvation have infiltrated Clovis Brays dormant Exo-Human facility, and plan to use the technology therein to further their agenda. Follow them, and purge the crypt of their presence",
+      "difficulty": 2,
+      "gallery": "DeepStoneCrypt/",
+      "galleryFiles": ["security.png","bombs.png","table.jpg"],
+      "guide": "https://www.youtube.com/embed/Fg5-sKYXhRs?si=KwNh4butceSrmA1H"
+    },
+    {
+      "name": "Garden of Salvation",
+      "description": "Evil stirs once more in the Black Garden and an unknown signal from deep within beckons you forth. Step once more into the Garden, fight your way through the Vex and find the signals origin",
+      "difficulty": 2,
+      "gallery": "GardenOfSalvation/",
+      "galleryFiles": ["first.jpg","lastboss.png","secondmap.jpg","loottable.jpg"],
+      "guide": "https://www.youtube.com/embed/Nts8IH6lhqg?si=D4c6TMztpSIQYZAJ"
+    },
+    {
+      "name": "Last Wish",
+      "description": "Riven of a Thousand Voices. The Architect behind the fall of Cayde-6 and the curse that now haunts the Dreaming City, must be slain. Travel deep into the home of the Awoken people, and seal the fate of the Ahamkara`s",
+      "difficulty": 4,
+      "gallery": "LastWish/",
+      "galleryFiles": ["symbols.jpg","queenswalk.png"],
+      "guide": "https://www.youtube.com/embed/sGGyhdpHEZ4?si=2xrX221gOrHo8b7A"
+    },
+    {
+      "name": "Vault of Glass",
+      "description": "Beneath Venus, evil stirs. Fight your way into the Vault of Glass, a timeless space where the Vex manipulate and weave time to their own end. Put a stop to its activity and deal the Vex a major blow in the Sol System",
+      "difficulty": 1,
+      "gallery": "VaultOfGlass/",
+      "galleryFiles": [],
+      "guide": "https://www.youtube.com/embed/ZD8cx4JcjVg?si=5CD9lCoxMRrPYfGA"
     }
   ]
 }

@@ -9,29 +9,55 @@
     width: 100%;
 }
 
+#description{
+    width: 90%;
+    border-top: 0.1rem solid darkorange;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+}
+
 
 #guide{
-    width: 75%;
+    width: 60%;
     height: auto;
     aspect-ratio: 16/9;
 }
 
 .inner-swiper{
     width:100%;
+    height: 100%;
     overflow: hidden;
+    border-bottom: 0.2rem solid darkorange;
+    border-top: 0.2rem solid darkorange;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
 }
+
+.inner-wrapper{
+
+}
+
 .outer-swiper{
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 .swiper-slide{
-    width: 100%;
+    height:100%;
 }
 
 .gallery-image{
-    max-width: 75%;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: fill;
+}
+
+.lightbox-custom{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 
 .swiper-pagination-bullet-active{
@@ -39,4 +65,22 @@
 }
 .swiper-pagination-bullet{
     color: white;
+}
+.swiper-wrapper{
+    transition-timing-function: linear !important;
+}
+
+.swiper-scrollbar{
+    --swiper-scrollbar-bg-color: black;
+    --swiper-scrollbar-drag-bg-color: darkorange;
+    --swiper-scrollbar-size: 0.4rem;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    --swiper-navigation-color: darkorange;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    --swiper-navigation-color: white;
+    transform: scale(1.2);
 }

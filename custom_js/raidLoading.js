@@ -90,6 +90,9 @@ function createSwiper(gallery){
     //create wrapper element
     const swiperWrapper = document.createElement("div");
     swiperWrapper.classList.add(...swiperWrapperClasses);
+    if(gallery){
+        swiperWrapper.classList.add("inner-wrapper");
+    }
     swiperWrapper.id = mainWrapperID;
 
 
@@ -107,7 +110,7 @@ function createSwiper(gallery){
         swiperMain.appendChild(swiperPrev);
     }else{
         const swiperPage = document.createElement("div");
-        swiperPage.classList.add("swiper-pagination");
+        swiperPage.classList.add("swiper-scrollbar");
         swiperMain.appendChild(swiperPage);
     }
 
@@ -127,7 +130,7 @@ function createRaidSlide(raid, template){
 
     slide.querySelector("#raidname").innerText = raid.name;
     slide.querySelector("#description").innerText = raid.description;
-    slide.querySelector("#difficulty").innerText = "Difficulty: "+raid.difficulty;
+    slide.querySelector("#difficulty").innerText = "Difficulty Rating: "+raid.difficulty;
 
     slide.querySelector("#guide").src = raid.guide;
 
@@ -146,6 +149,7 @@ function createRaidSlide(raid, template){
         //create lightbox anchor
         const lightBoxElement = document.createElement("a");
         lightBoxElement.href = imageElement.src;
+        lightBoxElement.classList.add("lightbox-custom");
         lightBoxElement.setAttribute("data-pswp-width","1920");
         lightBoxElement.setAttribute("data-pswp-height","1080");
         lightBoxElement.appendChild(imageElement);
@@ -174,24 +178,31 @@ function initSwipers(){
     let count = 0
     innerSwipers.forEach(swiper => {
         new Swiper(swiper,{
-            autoplay: true,
+            loop:true,
+            autoplay:{
+                delay: 0,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: false,
+            },
             nested: true,
             direction:"horizontal",
-            slidesPerView: 1,
-            spaceBetween:0,
-            freeMode:{
-                enabled: true,
-                sticky: true,
+            slidesPerView: 2,
+            spaceBetween:10,
+            speed:8000,
+            freeMode:true,
+            freeModeMomentum: false,
+            threshold:15,
+            scrollbar:{
+                el: ".swiper-scrollbar",
+                draggable: true,
             },
-            effect: "cards",
-            cardEffect:{
-                perSlideRotate:5,
-                perSlideOffset:5,
-                rotate:true
-            },
-            pagination:{
-                el: ".swiper-pagination",
-                type: "bullets",
+            on:{
+                touchEnd: function(){
+                    this.autoplay.start();
+                },
+                scrollbarDragEnd: function(){
+                    this.autoplay.start();
+                }
             }
 
 
