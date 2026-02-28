@@ -178,7 +178,6 @@ function initSwipers(){
     let count = 0
     innerSwipers.forEach(swiper => {
         new Swiper(swiper,{
-            loop:true,
             autoplay:{
                 delay: 0,
                 disableOnInteraction: false,

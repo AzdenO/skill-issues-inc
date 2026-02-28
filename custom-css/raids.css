@@ -2,10 +2,19 @@
     background-image: url('../assets/images/vog_bg.jpg');
 }
 
+.rules-container{
+    background-image: url('../assets/images/lastcity.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #raids{
     background: #1a1d20;
-    border-bottom: 0.2rem solid darkorange;
     border-top: 0.2rem solid darkorange;
+    border-bottom: 0.2rem solid darkorange;
+    padding-bottom: 1rem;
     width: 100%;
 }
 
@@ -73,7 +82,7 @@
 .swiper-scrollbar{
     --swiper-scrollbar-bg-color: black;
     --swiper-scrollbar-drag-bg-color: darkorange;
-    --swiper-scrollbar-size: 0.4rem;
+    --swiper-scrollbar-size: 0.6rem;
 }
 
 .swiper-button-next, .swiper-button-prev{

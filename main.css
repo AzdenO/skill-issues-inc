@@ -189,4 +189,5 @@
 
 .end-container{
     background-color: darkorange;
+    border-top: 0.2rem solid black;
 }

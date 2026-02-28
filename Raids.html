@@ -22,7 +22,7 @@
 </head>
 <body>
 
-    <div class="container-fluid d-flex flex-column w-100 master-container raids-container" id="master">
+    <div class="container-fluid d-flex flex-column w-100 master-container raids-container px-0" id="master">
         <div class="container-fluid gap-6 floating-container text-center big-gap glassmorphism w-75">
             <p class="part-header">Raids and Dungeons</p>
             <p class="small-body-text">
@@ -36,7 +36,51 @@
     <div class="container-fluid d-flex flex-column w-100" id="raids">
 
     </div>
-    <div class="container-fluid d-flex w-100 end-container"></div>
+
+    <div class="container-fluid d-flex flex-column w-100 rules-container w-100 px-0">
+        <div class="container-fluid d-flex flex-column w-100 justify-content-center align-items-center text-center glassmorphism w-75 px-3">
+            <p class="part-header">Raid Rules</p>
+            <p class="small-body-text">I know, very boring. But it`s gotta be done, in the interest of smoothness, coordination and making sure a good time, stays a good time. The following are a list of rules we want all raiders and server users to be wary of:</p>
+            <div class="container-fluid d-flex flex-row">
+                <ul class="bullet-list gap-3">
+                    <li class="small-body-text py-3">
+                        If you have signed up to a raid card. You must arrive at the start time on the card. If you are going to be late, alert the rest of the team at the earliest opportunity
+                    </li>
+                    <li class="small-body-text py-3">
+                        If you are signing up to a raid you have not done before, or have little experience, check with those on the card that there is enough people with amble experience to guide you through
+                    </li>
+                    <li class="small-body-text py-3">
+                        Absolutely NO SKILL TOXICITY. If you have joined a casual run, or a run where people are learning, do not expect smoothness or fast clears. If you are wanting runs such as those then create a card and specify such in the cards description
+                    </li>
+
+                </ul>
+                <ul class="bullet-list gap-3">
+                    <li class="small-body-text py-3">
+                        The alternate option on a raid card (denoted by a "?") is for signalling you will be available at the start time of the raid and can fill a spot if needed. There is no other use for this option
+                    </li>
+                    <li class="small-body-text py-3">
+                        If you would like to do a raid you do not know, either ask for sherpas who will create a card for you, or create a card yourself but the description on the card must denote you have no/little experience and sherpas are required
+                    </li>
+                    <li class="small-body-text py-3">
+                        This should go without saying but for some, it must be said. NO BULLYING. We have a ZERO TOLERANCE POLICY for any kind of verbal abuse. While insulting each other can be seen as banter, never let it go to far, and never outright use slurs of any kind. Confirmed cases of such will lead to an immediate ban
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid d-flex w-100 end-container py-0">
+        <img src="assets/images/clan_logo.png" class="img-fluid event-icon spinner-border" alt="Clan_Logo"/>
+        <div class="container-fluid d-flex flex-column align-items-start justify-content-start py-3 gap-0">
+            <a href="" class="nav-link py-0 px-0">
+                <p class="fancy-link small-body-text text-light px-0 py-0">Disclaimer</p>
+            </a>
+            <a href="" class="nav-link px-0 py-0">
+                <p class="fancy-link small-body-text text-light px-0 py-0">Attributions</p>
+            </a>
+        </div>
+    </div>
 
     <!--Templates---->
     <template id="raidtemplate">
