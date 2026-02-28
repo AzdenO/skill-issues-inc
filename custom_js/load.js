@@ -24,7 +24,7 @@ function loadNav(){
 }
 /////////////////////////////////////////////////////////////////////////////////////////
 function loadBottomBar(){
-    fetch("assets/elements/bottomBar.html").then(response => {
+    fetch("assets/elements/bottombar.html").then(response => {
         if(!response.ok){
             throw new Error("Cannot load bottomBar");
         }
