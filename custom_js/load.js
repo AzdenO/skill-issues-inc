@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", ()=>{
     loadNav();
+    loadBottomBar();
 });
 
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -22,3 +23,16 @@ function loadNav(){
         });
 }
 /////////////////////////////////////////////////////////////////////////////////////////
+function loadBottomBar(){
+    fetch("assets/elements/bottomBar.html").then(response => {
+        if(!response.ok){
+            throw new Error("Cannot load bottomBar");
+        }
+        return response.text();
+    }).then(bottomBar => {
+       const holder = document.createElement("div");
+       holder.innerHTML = bottomBar;
+       document.getElementById("body").appendChild(holder);
+    });
+}
+////////////////////////////////////////////////////////////////////////////////////////
